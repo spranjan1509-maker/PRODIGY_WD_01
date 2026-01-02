@@ -49,10 +49,13 @@ The interface is enhanced using **glassmorphism effects**, **gradient background
 - Clean and maintainable code structure
 - Modern UI/UX design suitable for portfolio use
 
-🌐 How to Run Locally
-Clone the repository:
-git clone (https://github.com/spranjan1509-maker/PRODIGY_WD_01)
-Navigate to the project directory:
-cd task1
-Open the file: Open the index.html file in any web browser.
-You can then test the interactivity by scrolling down the page and hovering over the menu links.
+
+
+## 🌐 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/interactive-navbar.git](https://github.com/spranjan1509-maker/PRODIGY_WD_01)
+2. Navigate to the project directory:
+3. Open index.html in any modern web browser.
+You can test the interactivity by scrolling through the page and hovering over the navigation links.
