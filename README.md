@@ -60,5 +60,5 @@ The interface is enhanced using **glassmorphism effects**, **gradient background
 ```bash
    cd PRODIGY_WD_01
 ```
-3. Open index.html in any modern web browser.
+3. Open **wd1.html** in any modern web browser.
 You can test the interactivity by scrolling through the page and hovering over the navigation links.
