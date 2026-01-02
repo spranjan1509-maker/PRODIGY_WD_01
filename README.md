@@ -40,14 +40,11 @@ wd1.css // Styling and animations
 wd1.js // Scroll and interaction logic
 README.md // Project documentation
 
-🎯 Purpose of the Project
 
-This project was developed as part of a Web Development Internship to demonstrate:
+## 🎯 Purpose of the Project
 
-Strong understanding of HTML, CSS, and JavaScript fundamentals
-
-Implementation of real-world UI interactions
-
-Clean and maintainable code structure
-
-Modern UI/UX design suitable for portfolio use
+- This project was developed as part of a Web Development Internship to demonstrate:
+- Strong understanding of HTML, CSS, and JavaScript fundamentals
+- Implementation of real-world UI interactions
+- Clean and maintainable code structure
+- Modern UI/UX design suitable for portfolio use
