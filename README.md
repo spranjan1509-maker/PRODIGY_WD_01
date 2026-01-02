@@ -33,10 +33,21 @@ The interface is enhanced using **glassmorphism effects**, **gradient background
 
 ---
 
-## 📂 Project Structure
-PRODIGY_WD_01/
-│
-├── wd1.html # Main HTML file
-├── wd1.css # Styling and animations
-├── wd1.js # Interactivity and scroll logic
-└── README.md # Project documentation
+## 📂 Project Contents
+
+wd1.html // HTML structure
+wd1.css // Styling and animations
+wd1.js // Scroll and interaction logic
+README.md // Project documentation
+
+🎯 Purpose of the Project
+
+This project was developed as part of a Web Development Internship to demonstrate:
+
+Strong understanding of HTML, CSS, and JavaScript fundamentals
+
+Implementation of real-world UI interactions
+
+Clean and maintainable code structure
+
+Modern UI/UX design suitable for portfolio use
