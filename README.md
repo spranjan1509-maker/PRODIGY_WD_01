@@ -35,10 +35,10 @@ The interface is enhanced using **glassmorphism effects**, **gradient background
 
 ## 📂 Project Contents
 
-wd1.html // HTML structure
-wd1.css // Styling and animations
-wd1.js // Scroll and interaction logic
-README.md // Project documentation
+- wd1.html // HTML structure
+- wd1.css // Styling and animations
+- wd1.js // Scroll and interaction logic
+- README.md // Project documentation
 
 
 ## 🎯 Purpose of the Project
