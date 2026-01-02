@@ -34,4 +34,9 @@ The interface is enhanced using **glassmorphism effects**, **gradient background
 ---
 
 ## 📂 Project Structure
-
+PRODIGY_WD_01/
+│
+├── wd1.html # Main HTML file
+├── wd1.css # Styling and animations
+├── wd1.js # Interactivity and scroll logic
+└── README.md # Project documentation
