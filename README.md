@@ -1,4 +1,4 @@
-# 🌐 Interactive Fixed Navigation Menu – Portfolio UI
+# 🌐 Task 1- Interactive Fixed Navigation Menu – Portfolio UI
 
 A modern, responsive, and visually enhanced **interactive navigation menu** built using **HTML, CSS, and JavaScript**.  
 This project is designed for **portfolio presentation** and **web development internship submissions**, showcasing clean UI, smooth animations, and real-world scroll interactions.
