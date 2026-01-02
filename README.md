@@ -57,5 +57,5 @@ The interface is enhanced using **glassmorphism effects**, **gradient background
    ```bash
    git clone (https://github.com/spranjan1509-maker/PRODIGY_WD_01)
 2. Navigate to the project directory:
-3. Open wd1.html in any modern web browser.
-You can test the interactivity by scrolling through the page and hovering over the navigation links.
+```bash
+cd PRODIGY_WD_01
