@@ -55,7 +55,7 @@ The interface is enhanced using **glassmorphism effects**, **gradient background
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/interactive-navbar.git](https://github.com/spranjan1509-maker/PRODIGY_WD_01)
+   git clone (https://github.com/spranjan1509-maker/PRODIGY_WD_01)
 2. Navigate to the project directory:
-3. Open index.html in any modern web browser.
+3. Open wd1.html in any modern web browser.
 You can test the interactivity by scrolling through the page and hovering over the navigation links.
