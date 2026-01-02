@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
+    z-index: 1000;
+}
+
+nav.scrolled {
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Logo */
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    background: linear-gradient(45deg, #00eaff, #00ff9d);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Nav links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Hover underline animation */
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #00eaff;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+    height: 100vh;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card-style content */
+.card {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(15px);
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+    width: 70%;
+    color: #fff;
+    animation: fadeUp 1s ease;
+}
+
+.card h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Section backgrounds */
+#home {
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+}
+
+#about {
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+}
+
+#services {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+}
+
+#contact {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+}
+
+/* ================= ANIMATIONS ================= */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    nav {
+        padding: 15px 30px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 40px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+}
